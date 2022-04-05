@@ -108,3 +108,5 @@ export async function cleanup() {
     browser = null
   }
 }
+
+export * from './types'

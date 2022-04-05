@@ -9,6 +9,7 @@
     "rootDir": ".",
     "outDir": "dist",
     "strict": true,
+    "declaration": true,
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
     "sourceMap": true,
