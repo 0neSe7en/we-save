@@ -1,6 +1,6 @@
 {
   "name": "we-save",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "main": "dist/src/index.js",
   "scripts": {
@@ -23,6 +23,7 @@
     "fs-extra": "^10.0.1",
     "handlebars": "^4.7.7",
     "puppeteer": "^13.5.2",
+    "turndown": "^7.1.1",
     "we-extract": "^2.2.14"
   },
   "devDependencies": {
@@ -38,7 +39,6 @@
     "prettier": "^2.6.2",
     "ts-jest": "^27.1.4",
     "ts-node": "^10.7.0",
-    "turndown": "^7.1.1",
     "typescript": "^4.6.3"
   }
 }
