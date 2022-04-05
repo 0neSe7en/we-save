@@ -1,0 +1,44 @@
+{
+  "name": "we-save",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "dev": "ts-node src/bin/wesave.ts",
+    "build": "tsc -p tsconfig.json",
+    "prepack": "npm run build",
+    "localinstall": "npm run build && npm i -g"
+  },
+  "bin": {
+    "wesave": "./dist/src/bin/wesave.js"
+  },
+  "files": ["dist/src/**/*.js", "dist/src/**/*.js.map"],
+  "keywords": ["Wechat", "PDF"],
+  "author": "0neSe7en <siyuan.se7en@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "commander": "^9.1.0",
+    "fs-extra": "^10.0.1",
+    "handlebars": "^4.7.7",
+    "puppeteer": "^13.5.2",
+    "we-extract": "^2.2.14"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.23",
+    "@types/turndown": "^5.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^26.1.3",
+    "prettier": "^2.6.2",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "turndown": "^7.1.1",
+    "typescript": "^4.6.3"
+  }
+}

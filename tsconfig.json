@@ -1,0 +1,25 @@
+{
+  "ts-node": {
+    "files": true
+  },
+  "compilerOptions": {
+    "target": "ES5",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "rootDir": ".",
+    "outDir": "dist",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "src/types/types.d.ts"
+    ]
+  },
+  "include": [
+    "src/**/*",
+    "__tests__/**/*"
+  ],
+  "exclude": ["node_modules", "dist"]
+}
